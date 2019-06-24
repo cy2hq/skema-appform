@@ -55,9 +55,9 @@
     position: relative;
   }
 
-  li.ps_grid-row.psc_selected > .ps_box-link > .ps-link-wrapper > .ps-link{
+  li.ps_grid-row.psc_selected > .ps_box-link > .ps-link-wrapper > .ps-link, 
+  li.ps_grid-row.psc_selected > .ps_box-link > .ps-link-wrapper > .ps-link .ps-text {
     font-weight: normal;
-    color: red;
   }
 }
 
