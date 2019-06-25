@@ -114,7 +114,8 @@
 
 .ps_box-scrollarea.psc_border-bottomonly {
 	.ps_box-scrollarea-row:not(:last-child) {
-		border-bottom: 1px solid $color-standard;
+		/* commented to suspress the red line - pssli - 25.06.2019
+		 border-bottom: 1px solid $color-standard;*/
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
