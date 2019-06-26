@@ -50,10 +50,11 @@
 					display: flex;
 					flex-flow: row nowrap;
 					min-height: 43px;
+					text-decoration: none;
 					width: 100%;
 					
 					> .ps-text {
-						color: $color-black;
+						color: $color-white;
 						order: 2;
 						flex: 1 0 auto;
 						padding-left: 10px;
