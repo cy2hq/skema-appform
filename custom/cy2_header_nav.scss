@@ -54,7 +54,7 @@
 					width: 100%;
 					
 					> .ps-text {
-						color: $color-white;
+						color: $color-black;
 						order: 2;
 						flex: 1 0 auto;
 						padding-left: 10px;
@@ -68,6 +68,9 @@
 					
 					&:hover {
 						background-color: $color-menuover
+						> .ps-text {
+							color: $color-white;
+						}
 					}
 				}
 			}
