@@ -25,7 +25,7 @@
 
 
 @media all and (max-width: 475px) {
-	.ps_box-edit, .ps_box-dropdown, .ps_box-longedit, .cy2_switch {
+	.ps_box-edit:not(.psc_disabled), .ps_box-dropdown, .ps_box-longedit, .cy2_switch {
 		display: flex;
 		flex-direction: column;
     width: calc( 100vw - 40px);
