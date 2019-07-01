@@ -217,8 +217,8 @@ $disabled-color: #4a4a4a;
 .ps_box-button.psc_modal-done.psc_primary .ps-button-wrapper .ps-button,
 .ps_box-button:not(.psc_disabled).cy2_color_white .ps-button-wrapper .ps-button {
 
-  color: $color-white !important;
-  border-color: $color-white !important;
+  color: $color-white;
+  border-color: $color-white;
   
   &:hover, &:link:hover {
     background-color: $color-white;
