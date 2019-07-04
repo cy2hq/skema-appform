@@ -103,7 +103,10 @@
 /*  font-size: 3vw !important;*/
   @include justify-content(center);
   .ps_box-edit {
-    margin-bottom: 0;
+    /* keep title in center */
+    /* margin-bottom: 0; */
+    margin-bottom: auto;
+    margin-top: auto;
   }
 }
 
