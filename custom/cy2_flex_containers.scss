@@ -9,6 +9,11 @@
   overflow: auto;
   min-width: 320px;
 }
+/* Wrap flexbox items when space becomes smaller*/
+.cy2_flex_wrap{
+  flex-wrap:wrap;
+  -webkit-flex-wrap: wrap;
+}
 
 /* on the landing page we must enlarge the page to prevent a cut-off on the dropdown box */
 .cy2_flex_container.cy2_branding {
