@@ -21,6 +21,18 @@
   height: 35px;
 }
 
+
+/*PSSLI 10-09-2019 - smaller dropdown area code*/
+.cy2_countrycode .selectric-wrapper {
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	flex: 1 1 auto;
+	max-width: 180px;
+	height: 35px
+}
+
+
 .selectric-responsive {
   width: 100%;
 }
