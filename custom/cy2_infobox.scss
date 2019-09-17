@@ -113,13 +113,19 @@
     height: 10px;
    }
 }
-.cy2_infobox_question {
+/* PSSLI - 17.09.2019 - mixin for info box question*/
+@mixin cy2_infobox_question($w: 40vw) {
   background-color: $color-gray;
   font-family: $standard-font;
   font-size: 16px;
   padding: 10px;
   margin-left: -10px;
   margin-right: -10px;
+  max-width: $w;
+}
+
+.cy2_infobox_question {
+  @include cy2_infobox_question; /* defaults to 40vw*/
 }
 
 /* on small device the infobox text needs padding */
@@ -128,4 +134,8 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .cy2_infobox_question{
+    @include cy2_infobox_question(100vw); /* On mobile use full screen width*/
+  }
+  
 }
