@@ -31,6 +31,24 @@
 	max-width: 180px;
 	height: 35px
 }
+/*PSSLI 17-09-2019 - enlarge phone field*/
+.cy2_phone{
+  width:300px;
+}
+/*PSSLI 17-09-2019 - make mobile proof version*/
+:root.psc_form-small{
+  thead{
+   display:none;
+  }
+  div.ps_box-gridc{
+   width:330px; 
+  }
+  tbody tr .cy2_phone,
+  .cy2_countrycode .selectric-wrapper{
+  max-width:250px;
+  }
+}
+
 
 
 .selectric-responsive {
