@@ -1,9 +1,11 @@
 /* These specific fixes are for Internet explorer.  */
 
-:root.ie:not(.psc_form-small) .cy2_flex.ps_box-group {
-  min-width: 740px;
+
+:root.ie:not(.edge):not(.psc_form-small)  .cy2_width_780px .cy2_flex.ps_box-group {
+  min-width: 780px;
 }
 
-:root.ie.psc_form-small .cy2_flex_object .ps_box-grid-flex .ps_box-gridc {
+
+:root.ie:not(.edge).psc_form-small .cy2_flex_object .ps_box-grid-flex .ps_box-gridc {
   width: 100%;
 }

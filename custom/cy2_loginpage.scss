@@ -141,7 +141,8 @@
 
 .cy2_login-buttonbar {
   align-items: center;
-  background-color: $color-darkgray;
+  /*background-color: $color-darkgray;*/
+  background-image: linear-gradient(to right, $color-light-red , $color-dark-red);
   display: flex;
   height: 50px;
   justify-content: center;

@@ -28,6 +28,16 @@
   border: none;
 }
 
+/*PSSLI 30.09.2019 - Added gradient top bar new style */
+#CY2_AD_NUR_FL .cy2_flex_topbar,
+#CY2_AD_LANDING_FL .cy2_flex_topbar {
+  @include flexbox();
+  @include flex-direction(row);
+  @include flex(0 0 100px);
+  background-image: linear-gradient(to right, $color-light-red , $color-dark-red);
+  border: none;
+}
+
 .cy2_flex_topbar2, .cy2_flex_topbar3 {
   @include flexbox();
   @include flex-direction(row);
