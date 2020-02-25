@@ -85,7 +85,7 @@
     font-weight: inherit !important;
     color: inherit !important;
     text-decoration:none !important;
-    @text-shadow( none );    
+    @include text-shadow( none );    
   }
   &.psc_selected
   {
